@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="aula3.Aula3Controller">
+   <children>
+      <PasswordField fx:id="passwordBanco" layoutX="229.0" layoutY="126.0" prefHeight="32.0" prefWidth="343.0" promptText="Senha" />
+      <Label layoutX="250.0" layoutY="69.0" text="Digite a sua senha do banco">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonPegarDados" layoutX="291.0" layoutY="527.0" mnemonicParsing="false" onAction="#pegarDados" prefHeight="50.0" prefWidth="219.0" text="Pegar Dados">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="textAreaReclamacoes" layoutX="218.0" layoutY="217.0" prefHeight="117.0" prefWidth="365.0" promptText="Digite aqui..." />
+      <Label layoutX="263.0" layoutY="173.0" text="Quais as suas reclamações ?">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelDados" layoutX="218.0" layoutY="347.0" text="Dados:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
